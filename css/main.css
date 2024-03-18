@@ -362,7 +362,8 @@ a {
 	cursor: pointer;
 	transition: var(--main-tansition);
 }
-.projects .box .links .github:hover .projects .box .links .github:hover a {
+.projects .box .links .github:hover,
+.projects .box .links .github:hover a {
 	color: #6cc644;
 }
 .projects .box .links .demo:hover,
